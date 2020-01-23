@@ -1,0 +1,22 @@
+.column {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  .title {
+    text-align: center;
+    padding: 15px;
+    font-size: larger;
+  }
+  &.red {
+    background-color: red;
+  }
+  &.dark-khaki {
+    background-color: #d2c85d;
+  }
+  &.yellow-green {
+    background-color: #70d25d;
+  }
+  &.light-blue {
+    background-color: #5dbcd2;
+  }
+}
